@@ -31,9 +31,7 @@ export default class TextArea extends React.Component<IProps, State> {
         {this.renderLines()}
 
         <div className={styles.linedtextarea}>
-          <textarea wrap="off">
-            {this.props.content}
-          </textarea>
+          <textarea wrap="off">{this.props.content}</textarea>
         </div>
       </div>
     );
