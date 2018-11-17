@@ -18,13 +18,12 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
+          { loader: 'style-loader' },
           {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
+            loader: 'typings-for-css-modules-loader',
             options: {
               modules: true,
+              namedExport: true,
             },
           },
         ],

@@ -71,7 +71,8 @@
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.16.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.1.6"
+    "typescript": "^3.1.6",
+    "typings-for-css-modules-loader": "^1.7.0"
   },
   "peerDependencies": {
     "react": "*",

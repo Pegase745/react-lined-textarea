@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import styles from './TextArea.css';
+import * as styles from './TextArea.css';
 
 const initialState = { lineNumbers: 0 };
 
